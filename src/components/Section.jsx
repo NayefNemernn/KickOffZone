@@ -9,7 +9,9 @@ const Section = ({
   children,
 }) => {
   return (
+    
     <div
+    
       id={id}
       className={`
       relative 
@@ -36,6 +38,7 @@ const Section = ({
       )}
     </div>
   );
+  
 };
 
 export default Section;

@@ -48,53 +48,69 @@ export const BackgroundCircles = ({ parallaxRef }) => {
 
       {/* Moving background colored circle balls */}
       <MouseParallax strength={0.07} parallaxContainerRef={parallaxRef}>
-        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[46deg]">
-          <div
-            className={`w-2 h-2 -ml-1 -mt-36 bg-gradient-to-b from-[#DD734F] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
+      <div className="absolute bottom-1/2 left-1/2 w-0.2 h-1/2 origin-bottom rotate-[52deg]">
+          <img
+            src="../../src/assets/hero/ball2.png" 
+            alt="ball"
+            className={`w-10 h-10 -ml-4 -mt-32 object-contain transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           />
         </div>
 
-        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[56deg]">
-          <div
-            className={`w-4 h-4 -ml-1 -mt-32 bg-gradient-to-b from-[#DD734F] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
+
+        <div className="absolute bottom-1/2 left-1/2 w-0.2 h-1/2 origin-bottom -rotate-[56deg]">
+          <img
+            src="../../src/assets/hero/ball2.png" 
+            alt="ball"
+            className={`w-20 h-20 -ml-4 -mt-32 object-contain transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           />
         </div>
 
-        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[54deg]">
-          <div
-            className={`hidden w-4 h-4 -ml-1 mt-[12.9rem] bg-gradient-to-b from-[#B9AEDF] to-[#1A1A32] rounded-full xl:block transit transition-transform duration-500 ease-out ${
+        <div className="absolute bottom-1/2 left-1/2 w-0.2 h-1/2 origin-bottom rotate-[54deg]">
+          <img
+            src="../../src/assets/hero/ball1.png" 
+            alt="ball"
+            className={`hidden w-20 h-20 -ml-4 mt-[12.9rem] object-contain xl:block transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           />
         </div>
 
-        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[65deg]">
-          <div
-            className={`w-3 h-3 -ml-1.5 mt-52 bg-gradient-to-b from-[#B9AEDF] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
+        <div className="absolute bottom-1/2 left-1/2 w-0.2 h-1/4 origin-bottom -rotate-[56deg]">
+          <img
+            src="../../src/assets/hero/ball2.png" 
+            alt="ball"
+            className={`w-10 h-10 -ml-4 -mt-32 object-contain transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           />
         </div>
 
-        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[85deg]">
-          <div
-            className={`w-6 h-6 -ml-3 -mt-3 bg-gradient-to-b from-[#88E5BE] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
+
+        <div className="absolute bottom-1/2 left-1/2 w-0.2 h-1/2 origin-bottom -rotate-[90deg]">
+          <img
+            src="../../src/assets/hero/ball1.png" 
+            alt="ball"
+            className={`w-20 h-20 -ml-4 -mt-32 object-contain transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           />
         </div>
 
-        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[70deg]">
-          <div
-            className={`w-6 h-6 -ml-3 -mt-3 bg-gradient-to-b from-[#88E5BE] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
+
+        <div className="absolute bottom-1/2 left-1/2 right-80 w-0.2 h-1/3 origin-bottom -rotate-[-85deg]">
+          <img
+            src="../../src/assets/hero/ball2.png" 
+            alt="ball"
+            className={`w-20 h-20 -ml-4 -mt-32 object-contain transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           />
         </div>
+
       </MouseParallax>
     </div>
   );
