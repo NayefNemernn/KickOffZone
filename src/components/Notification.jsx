@@ -6,7 +6,7 @@ const Notification = ({ className, title }) => {
     <div
       className={`${
         className || ""
-      } flex items-center p-4 pr-6 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl gap-5`}
+      } flex items-center p-2 pr-6 backdrop-blur-lg backdrop-filter backdrop-brightness-125 backdrop-opacity-30 bg-yellow-300/20 border border-n-1/10 rounded-2xl gap-5`}
     >
       <img
         src={notification1}
@@ -36,7 +36,7 @@ const Notification = ({ className, title }) => {
               </li>
             ))}
           </ul>
-          <div className="body-2 text-n-13">1m ago</div>
+          <div className="body-2 text-n-13 text-black" >1m ago</div>
         </div>
       </div>
     </div>

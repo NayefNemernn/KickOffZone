@@ -12,6 +12,11 @@
   --font-grotesk: "Space Grotesk", sans-serif;
   color-scheme: dark;
 }
+body{
+  background-color: rgba(0, 0, 0, 0.8); /* Dark black with 80% opacity */
+
+}
+
 
 * {
   scroll-behavior: smooth

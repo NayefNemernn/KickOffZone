@@ -9,11 +9,10 @@ const Benefits = () => {
   return (
     <Section id="features">
       <div className="container relative z-2">
-        <Heading
-          className="md:max-w-md lg:max-w-2xl"
-          title="Chat Smarter, Not Harder with Brainwave"
-        />
-
+      <Heading
+  className="md:max-w-md lg:max-w-2xl"
+  title={<>Elevate Your Game with Coach <span style={{ color: 'yellow' }}>Joe</span>'s Football Training</>}
+/>
         <div className="flex flex-wrap gap-10 mb-10">
           {benefits.map((item) => (
             <div
